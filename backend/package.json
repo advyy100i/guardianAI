@@ -1,0 +1,17 @@
+{
+  "name": "guardian-ai-backend",
+  "version": "0.1.0",
+  "description": "GuardianAI emergency intake webhook service",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+  "express": "^4.19.2",
+  "dotenv": "^16.4.5",
+    "morgan": "^1.10.0",
+    "twilio": "^4.20.1"
+  }
+}

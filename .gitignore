@@ -1,0 +1,193 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+backend/.env
+embedding_service/.env
+
+# Node.js (backend)
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.npm
+backend/.eslintcache
+backend/dist/
+backend/build/
+
+# Python (embedding service)
+embedding_service/__pycache__/
+embedding_service/*.pyc
+embedding_service/*.pyo
+embedding_service/*.pyd
+embedding_service/.Python
+embedding_service/env/
+embedding_service/venv/
+embedding_service/.venv/
+embedding_service/ENV/
+embedding_service/env.bak/
+embedding_service/venv.bak/
+embedding_service/.pytest_cache/
+embedding_service/htmlcov/
+embedding_service/.coverage
+embedding_service/.tox/
+embedding_service/.cache
+embedding_service/nosetests.xml
+embedding_service/coverage.xml
+embedding_service/*.cover
+embedding_service/*.log
+embedding_service/.mypy_cache/
+embedding_service/.dmypy.json
+embedding_service/dmypy.json
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+._*
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# ML Models and data files
+*.h5
+*.pkl
+*.model
+*.weights
+*.json.bak
+models/
+data/
+datasets/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
