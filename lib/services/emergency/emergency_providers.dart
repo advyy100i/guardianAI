@@ -3,9 +3,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'emergency_service.dart';
 
 final emergencyServiceProvider = Provider.autoDispose<EmergencyService>((ref) {
-  final service = EmergencyService();
-  ref.onDispose(service.dispose);
-  return service;
+  return EmergencyService();
 });
 
 final emergencyReportControllerProvider =

@@ -1,0 +1,7 @@
+{
+  "vitals_patterns": {
+    "blood_pressure": "(?i)\\b(\\d{2,3})\\s*/\\s*(\\d{2,3})\\b",
+    "heart_rate": "(?i)(?:heart rate|hr|pulse)[^\\d]{0,6}(\\d{2,3})",
+    "spo2": "(?i)(?:spo2|oxygen|o2)[^\\d]{0,6}(\\d{2,3})%"
+  }
+}

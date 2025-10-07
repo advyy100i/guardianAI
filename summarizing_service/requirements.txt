@@ -1,0 +1,14 @@
+fastapi>=0.110.0,<0.112
+uvicorn[standard]>=0.29.0,<0.31
+pydantic>=1.10.0,<1.11
+spacy>=3.7.0,<3.8
+scispacy>=0.5.4,<0.6
+numpy>=1.24.0,<2.0
+scikit-learn>=1.3.0,<1.5
+joblib>=1.3.0,<2.0
+vaderSentiment>=3.3.2,<3.4
+# Optional: download a language model after install (choose one):
+#   python -m spacy download en_core_web_sm
+# or scientific model:
+#   pip install https://s3.amazonaws.com/allenai-scispacy/models/en_core_sci_sm-0.5.4.tar.gz
+# This requirements file now also supports running the FastAPI summarizing service.
